@@ -2,6 +2,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import GenericTabs from '../components/Tabs';
 import CalculadoraIMC from '../components/CalculadoraIMC';
+import calculadoraTMB from '../components/CalculadoraTMB';
 
 function Calculadora() {
   const tabsData = [
@@ -11,16 +12,7 @@ function Calculadora() {
     },
     {
       label: 'Calculadora TMB',
-      content: (
-        <Box>
-          <Typography variant="h6" gutterBottom>
-            Calculadora de Taxa Metabólica Basal (TMB)
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Em desenvolvimento...
-          </Typography>
-        </Box>
-      ),
+      content: <calculadoraTMB />,
     },
   ];
 
