@@ -131,31 +131,6 @@ export default function Navbar() {
               <DarkModeOutlinedIcon sx={{ fontSize: '18px' }} />
             )}
           </IconButton>
-
-          <Box
-            component={Link}
-            to="/criar-postagem"
-            sx={{
-              display: 'flex',
-              alignItems: 'center',
-              backgroundColor: ctaBg,
-              color: ctaText,
-              fontSize: '14px',
-              fontWeight: 700,
-              borderRadius: '8px',
-              padding: '8px 18px',
-              textDecoration: 'none',
-              gap: '8px',
-              border: 'none',
-              transition: 'background-color 0.2s',
-              '&:hover': {
-                backgroundColor: ctaHover,
-              },
-            }}
-          >
-            <EditOutlinedIcon sx={{ fontSize: '15px' }} />
-            Criar postagem
-          </Box>
         </Box>
       </Box>
       <Box sx={{ height: '60px' }} />
